@@ -11,3 +11,4 @@
  */
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/production', 'ProductionController@index')->name('index');
